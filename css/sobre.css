@@ -1,0 +1,53 @@
+/*
+h1 {
+    background-color: gray;
+    color: white;
+    
+    /* formas de padding */
+    
+    /* padding: 10px; */
+    
+    /* padding: 5px 10px 5px 10px; */
+    
+    /* padding: 5px 10px; */
+    
+/*
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+
+}
+*/
+
+
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+    background-image: url(../img/sobre-background.jpg);
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+}
+
+figure {
+    
+    background-color: #F2EDED;
+    border: 1px dotted #ccc;
+    text-align:center;
+    
+}
+
+figcaption {
+    font-style: italic;
+}
+
+p {
+    
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    
+}
