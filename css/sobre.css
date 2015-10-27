@@ -85,3 +85,13 @@ p {
     float: right;
     margin: 0 0 10px 10px;
 }
+
+#sacolinha {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position: right center;
+    display: block;
+    width: 200px;
+    padding-right: 20px;
+}
