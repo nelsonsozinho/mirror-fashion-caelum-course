@@ -20,6 +20,11 @@ h1 {
 }
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body {
     color: #333333;
@@ -63,6 +68,10 @@ p {
     
 }
 
+header {
+    position: relative;
+}
+
 #rodape {
     color: #777;
     margin: 30px 0;
@@ -86,12 +95,38 @@ p {
     margin: 0 0 10px 10px;
 }
 
-#sacolinha {
+.container {
+    margin: 0 auto;
+    width: 940px; 
+}
+
+.cls-sacolinha {
+    padding-top: 8px;
+    
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
     background-position: right center;
-    background-position: right center;
-    display: block;
+    
     width: 200px;
     padding-right: 20px;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
 }
+
+.wrap-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.wrap-menu ul li {
+     display: inline;
+     margin-left: 10px;
+}
+
+
+
+
+
