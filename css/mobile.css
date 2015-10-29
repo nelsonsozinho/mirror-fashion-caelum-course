@@ -1,0 +1,49 @@
+.container {
+    width: 96%;
+}
+
+header h1 img {
+    max-width: 50%;
+}
+
+.sacolinha {
+    display: none;
+}
+
+.wrap-menu {
+    position: static;
+    text-align: center;
+}
+
+.wrap-menu ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.busca,
+.menu-departamentos,
+.destaque img {
+    margin-right: 0;
+    width: 100%;
+}
+
+.painel {
+    width: auto;
+}
+
+
+.painel li {
+    width: 30%;
+}
+
+.painel img {
+    width: 100%;
+}
+
+ .play,
+   .pause {
+     top: auto;
+     right: auto;
+left: 10px;
+     bottom: 10px;
+   }
