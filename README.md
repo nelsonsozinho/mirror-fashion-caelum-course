@@ -1,2 +1,2 @@
-# mirror-fashion-caelum-course
+# Caelum Mirror Fashion
 Projeto didatico de CSS e HTML
