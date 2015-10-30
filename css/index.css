@@ -17,7 +17,7 @@ h3 {
 p {
     font-family: Arial, Verdana, Helvetica, sans-serif;
     padding: 0 45px;
-    text-indent: 15px;   
+    text-indent: 15px;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
 #rodape img {
     margin-right: 30px;
     vertical-align: middle;
-    width: 94px;    
+    width: 94px;
 }
 
 #centro-distribuicao {
@@ -49,19 +49,16 @@ header {
 
 .container {
     margin: 0 auto;
-    width: 940px; 
+    width: 940px;
 }
 
 .cls-sacolinha {
     padding-top: 8px;
-    
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
     background-position: right center;
-    
     width: 200px;
     padding-right: 20px;
-    
     position: absolute;
     top: 0;
     right: 0;
@@ -74,8 +71,8 @@ header {
 }
 
 .wrap-menu ul li {
-     display: inline;
-     margin-left: 10px;
+    display: inline;
+    margin-left: 10px;
 }
 
 .busca,
@@ -87,8 +84,8 @@ header {
     clear: left;
 }
 
-.busca h2, 
-.busca form, 
+.busca h2,
+.busca form,
 .menu-departamentos h2 {
     margin: 10px;
 }
@@ -111,17 +108,15 @@ header {
 .busca input[type=search] {
     width: 170px;
     box-sizing: border-box;
-    
 }
 
 .destaque {
     margin-top: 10px;
-
 }
 
 .menu-departamentos {
-     margin-top: 10px;
-     padding-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .painel {
@@ -138,10 +133,9 @@ header {
     float: right;
 }
 
-
-
 .painel li {
-    display: inline-block; /* pega todos os li's e alinha */
+    display: inline-block;
+    /* pega todos os li's e alinha */
     vertical-align: top;
     width: 140px;
     margin: 2px;
@@ -170,7 +164,6 @@ header {
     background-color: #dcdcf5;
 }
 
-
 footer {
     background-image: url("../img/fundo-rodape.png");
     clear: both;
@@ -180,7 +173,6 @@ footer {
 footer .container {
     position: relative;
 }
-
 
 .social {
     position: absolute;
@@ -199,7 +191,6 @@ footer .container {
     float: left;
     margin-left: 25px;
 }
-
 
 .social a[href*="facebook.com"] {
     background-image: url("../img/facebook.png");

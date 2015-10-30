@@ -14,30 +14,8 @@
     </head>
     
     <body>
-        <header class="container">
-            <img src="img/logo.png" alt="Logo da MF"/>    
-            
-            <!--
-            <figure>
-                <img src="img/sacola.png" alt="Sacola de Compras"> 
-                <figcaption>Nenhum item na sacola de compras</figcaption>
-            </figure>
-            -->
-            
-            <span id="sacolinha" class="cls-sacolinha">
-                Nenhum item na sacolinha de compras
-            </span>
-            
-            <nav class="wrap-menu">
-                <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-item-action">Sua conta</a></li>
-                    <li class="menu-item"><a class="menu-item-action" href="#">Lista de Desejos</a></li>
-                    <li class="menu-item"><a class="menu-item-action" href="#">Cartao Fidelidade</a></li>
-                    <li class="menu-item"><a class="menu-item-action" href="html/sobre.html">Sobre</a></li>
-                    <li class="menu-item"><a class="menu-item-action" href="#">Ajuda</a></li>
-                </ul>
-            </nav>            
-        </header>
+        
+        <?php include "header.php" ; ?>
         
         <section class="container destaque">
             
@@ -189,16 +167,7 @@
             </section>
         </div>
         
-        <footer>
-            <div class="container">
-                <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
-                <ul class="social">
-                    <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-                    <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-                    <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
-                </ul>
-            </div>
-        </footer>
+        <?php include "footer.php";  ?>
         
     </body>
     

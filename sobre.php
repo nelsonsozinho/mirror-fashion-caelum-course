@@ -40,7 +40,7 @@
         
         <p>
             <strong>A Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
-Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
+Fundada <?php   print date("2015"); ?> em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
 participação em 118 deles.
         </p>
         <p>
